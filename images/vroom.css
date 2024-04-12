@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* section,
+div {
+  border: 1px solid;
+} */
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(137, 43, 226, 0.867);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+div.logo {
+  width: 20%;
+  margin-inline: 60px;
+  margin-block: 60px;
+}
+div.form {
+  width: 430px;
+  height: 450px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  border: 5px dotted rgb(124, 123, 123);
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-block: 0px 40px;
+  font-size: 2.5rem;
+  /* text-decoration: underline; */
+}
+label {
+  font-size: 1.5rem;
+  font-weight: 700;
+  /* margin-block: 40px; */
+}
+input {
+  height: 40px;
+  width: 320px;
+  border-radius: 10px;
+  background-color: #cfcfcf;
+  border: none;
+}
+div.forms {
+  margin-block: 20px;
+}
+div.button {
+}
+button {
+  width: 360px;
+  height: 50px;
+  background-color: rgb(255, 127, 148);
+  margin-block: 20px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+button:hover {
+  cursor: pointer;
+  background-color: pink;
+}
+div.kite,
+.kite2,
+.kite3 {
+  height: 60px;
+  width: 60px;
+  background-color: violet;
+  border-radius: 5px;
+  position: absolute;
+  top: 60px;
+  right: 80px;
+  animation-name: uche;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  /* animation-timing-function: ease-in-out; */
+}
+@keyframes uche {
+  0% {
+    /* transform: rotateX(360deg); */
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(90deg);
+    background-color: violet;
+  }
+  50% {
+    transform: rotateZ(180deg);
+    background-color: rgb(252, 157, 173);
+  }
+  75% {
+    transform: rotateZ(270deg);
+    background-color: rgb(114, 209, 240);
+  }
+  100% {
+    transform: rotateZ(360deg);
+    background-color: #fff;
+  }
+  0% {
+    transform: rotateZ(360deg);
+    background-color: #fff;
+  }
+}
+.kite2 {
+  width: 40px;
+  height: 40px;
+  top: 600px;
+  left: 140px;
+}
+.kite3 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 180px;
+  left: 655px;
+}
+div.back {
+  width: 230px;
+  height: 60px;
+  background-color: rgb(113, 205, 236);
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  border-radius: 20px 20px 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a.back {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}

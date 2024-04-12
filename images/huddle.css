@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* section,
+div {
+  border: 1px solid;
+} */
+body {
+  position: relative;
+  /* width: 100%; */
+  /* height: 100vh; */
+  background-color: rgba(137, 43, 226, 0.867);
+}
+div.logo {
+  width: 20%;
+  margin-inline: 60px;
+  margin-block: 60px;
+  color: #fff;
+}
+div.big {
+  background-color: #fff;
+  height: 400px;
+  width: 650px;
+  position: absolute;
+  left: 60px;
+  top: 140px;
+  border-radius: 10px;
+}
+div.black {
+  width: 100%;
+  height: 13%;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #000;
+}
+div.white {
+  height: 20px;
+  width: 160px;
+  border-radius: 5px;
+  position: absolute;
+  top: 14px;
+  left: 40px;
+  background-color: #fff;
+}
+div.small {
+  background-color: white;
+  height: 350px;
+  width: 270px;
+  position: absolute;
+  top: 260px;
+  left: 500px;
+  border-radius: 10px;
+}
+div.black2 {
+  width: 100%;
+  height: 11.5%;
+  background-color: #000;
+  border-radius: 10px 10px 0px 0px;
+}
+div.white2 {
+  width: 80px;
+  height: 15px;
+  background-color: #fff;
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  border-radius: 3px;
+}
+section.text {
+  height: 300px;
+  width: 500px;
+  color: #fff;
+  position: absolute;
+  right: 30px;
+  top: 180px;
+}
+div.title {
+  width: 350px;
+  height: 80px;
+  margin-block: 0px 20px;
+}
+h2 {
+  font-size: 1.8rem;
+  line-height: 40px;
+}
+a {
+  text-decoration: none;
+}
+
+div.link:hover {
+  background-color: #bbb8b89c;
+}
+div.link {
+  background-color: #fff;
+  color: purple;
+  height: 50px;
+  width: 150px;
+  margin-block: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+}
+div.circle {
+  height: 60%;
+  width: 13%;
+  position: absolute;
+  top: 90px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+div.color {
+  width: 100%;
+  height: 33%;
+  border-radius: 50%;
+  margin-block: 5px;
+}
+div.line {
+  height: 60%;
+  width: 48%;
+  position: absolute;
+  top: 90px;
+  left: 170px;
+}
+div.blank {
+  width: 100%;
+  height: 31%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+div.blank1 {
+  height: 22%;
+  width: 40%;
+  background-color: #bbb8b89c;
+  margin-block: 5px;
+  border-radius: 3px;
+}
+.blank2,
+.blank3,
+.blank4 {
+  height: 12%;
+  /* width: 100%; */
+  background-color: #bbb8b8;
+  margin-block: 2.5px;
+  border-radius: 2px;
+}
+div.second {
+  width: 100%;
+  height: 31%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+div.third {
+  width: 100%;
+  height: 31%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+div.kite {
+  height: 60px;
+  width: 60px;
+  background-color: violet;
+  border-radius: 5px;
+  position: absolute;
+  top: 60px;
+  right: 80px;
+  animation-name: uche;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  /* animation-timing-function: ease-in-out; */
+}
+@keyframes uche {
+  0% {
+    /* transform: rotateX(360deg); */
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(90deg);
+    background-color: violet;
+  }
+  50% {
+    transform: rotateZ(180deg);
+    background-color: rgb(252, 157, 173);
+  }
+  75% {
+    transform: rotateZ(270deg);
+    background-color: rgb(114, 209, 240);
+  }
+  100% {
+    transform: rotateZ(360deg);
+    background-color: #fff;
+  }
+  0% {
+    transform: rotateZ(360deg);
+    background-color: #fff;
+  }
+}
+#pink {
+  background-color: rgb(249, 120, 142);
+}
+#blue {
+  background-color: rgb(35, 196, 244);
+}
+#violet {
+  background-color: rgb(242, 43, 242);
+}
+/* div.not {
+  background-color: white;
+  height: 30px;
+  width: 30px;
+} */
+.kite1 {
+  height: 40px;
+  width: 40px;
+  background-color: violet;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  animation-name: nice;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes nice {
+  0% {
+    /* transform: rotateX(360deg); */
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(90deg);
+    background-color: violet;
+  }
+  50% {
+    transform: rotateZ(180deg);
+    background-color: rgb(252, 157, 173);
+  }
+  75% {
+    transform: rotateZ(270deg);
+    background-color: rgb(114, 209, 240);
+  }
+  100% {
+    transform: rotateZ(360deg);
+    background-color: #fff;
+  }
+  0% {
+    transform: rotateZ(360deg);
+    background-color: #fff;
+  }
+}
+.kite2 {
+  height: 60px;
+  width: 60px;
+  background-color: violet;
+  position: absolute;
+  top: 60px;
+  right: 80px;
+  animation-name: uche;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes uche {
+  0% {
+    /* transform: rotateX(360deg); */
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(90deg);
+    background-color: violet;
+  }
+  50% {
+    transform: rotateZ(180deg);
+    background-color: rgb(252, 157, 173);
+  }
+  75% {
+    transform: rotateZ(270deg);
+    background-color: rgb(114, 209, 240);
+  }
+  100% {
+    transform: rotateZ(360deg);
+    background-color: #fff;
+  }
+  0% {
+    transform: rotateZ(360deg);
+    background-color: #fff;
+  }
+}
+.kite3 {
+  height: 60px;
+  width: 60px;
+  background-color: violet;
+  position: absolute;
+  top: 60px;
+  right: 80px;
+  animation-name: uche;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes uche {
+  0% {
+    /* transform: rotateX(360deg); */
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(90deg);
+    background-color: violet;
+  }
+  50% {
+    transform: rotateZ(180deg);
+    background-color: rgb(252, 157, 173);
+  }
+  75% {
+    transform: rotateZ(270deg);
+    background-color: rgb(114, 209, 240);
+  }
+  100% {
+    transform: rotateZ(360deg);
+    background-color: #fff;
+  }
+  0% {
+    transform: rotateZ(360deg);
+    background-color: #fff;
+  }
+}
+.kite4 {
+  height: 60px;
+  width: 60px;
+  background-color: violet;
+  position: absolute;
+  top: 60px;
+  right: 80px;
+  animation-name: uche;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes uche {
+  0% {
+    /* transform: rotateX(360deg); */
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(90deg);
+    background-color: violet;
+  }
+  50% {
+    transform: rotateZ(180deg);
+    background-color: rgb(252, 157, 173);
+  }
+  75% {
+    transform: rotateZ(270deg);
+    background-color: rgb(114, 209, 240);
+  }
+  100% {
+    transform: rotateZ(360deg);
+    background-color: #fff;
+  }
+  0% {
+    transform: rotateZ(360deg);
+    background-color: #fff;
+  }
+}
+div.icons {
+  width: 200px;
+  height: 60px;
+  
+  position: absolute;
+  top: 650px;
+  right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  & i {
+    height: 55px;
+    width: 60px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: rgb(157, 86, 224);
+  }
+}
+
